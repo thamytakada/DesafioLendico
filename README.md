@@ -1,6 +1,6 @@
 # DesafioLendico
 Teste prático para o processo seletivo da Lendico 
-Utilizei as gems Rspec/Capybara/Cucumber/SitePrism/Faker/Ffake/Selenium-Web-Driver
+Utilizei as gems Rspec/Capybara/Cucumber/SitePrism/Faker/Ffake/Selenium-Web-Driver/HTTParty
 Tempo de espera = 10
 
 Cadastro Cliente;
@@ -9,6 +9,7 @@ Utilizando as Gems Ffaker e Faker consegui gerar massa de dados para o preenchim
 Declarei dois metodos adicionais com a ação de click e por fim, realizei com a verificação (have_content) após a mensagem ficar visivel e a comparo com a msg esperada.
 
 API:
+Declarei o CEP na feature, usei para fazer o get e validei que está retornando status 200 e o response com as informações do endereço
 
 Instruções para rodar as automações:
 Se rodar somente o comando "cucumber" vão rodar todos os cenários escritos, desafio 1, 2 e 3. 
