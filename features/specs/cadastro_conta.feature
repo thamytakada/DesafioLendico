@@ -4,7 +4,7 @@ Funcionalidade: Criar conta
 cadastrar novo usuario 
 
 Contexto:
-    Dado que Gael esteja na tela de cadastro
+    Dado que o usuario esteja na tela de cadastro
 
 @cadastro
 Cenario: Criar analise com sucesso

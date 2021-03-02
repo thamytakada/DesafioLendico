@@ -4,7 +4,7 @@ Funcionalidade: Fluxo de login
 Acessar com sucesso, valição de campos obrigatórios, exibição de senha e recuperação de senha
 
 Contexto:
-    Dado que Julia esteja na tela de login
+    Dado que o usuario esteja na tela de login
 
 
 Cenário: Acesso com sucesso
