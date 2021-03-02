@@ -1,4 +1,4 @@
-Dado('que Gael esteja na tela de cadastro') do
+Dado('que o usuario esteja na tela de cadastro') do
   @cadastro_page = CadastroPage.new
   @cadastro_page.load
 end
